@@ -1,0 +1,8 @@
+D:\Visual Studio\Project\bankKonverter\bankKonverter\bin\Debug\bankKonverter.exe.config
+D:\Visual Studio\Project\bankKonverter\bankKonverter\bin\Debug\bankKonverter.exe
+D:\Visual Studio\Project\bankKonverter\bankKonverter\bin\Debug\bankKonverter.pdb
+D:\Visual Studio\Project\bankKonverter\bankKonverter\obj\Debug\bankKonverter.csproj.AssemblyReference.cache
+D:\Visual Studio\Project\bankKonverter\bankKonverter\obj\Debug\bankKonverter.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Project\bankKonverter\bankKonverter\obj\Debug\bankKonverter.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Project\bankKonverter\bankKonverter\obj\Debug\bankKonverter.exe
+D:\Visual Studio\Project\bankKonverter\bankKonverter\obj\Debug\bankKonverter.pdb
