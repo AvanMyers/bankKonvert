@@ -14,11 +14,14 @@ namespace bankKonverter
             float usd;
             float eur;
             float currencyCount;
-            int rubToUsd = 46, rubToEur = 56;
-            int usdToRub = 48, usdToEur = 1;
-            int eurToRub = 58, eurToUsd = 1;
+            int rubToUsd = 46;
+            int rubToEur = 56;
+            int usdToRub = 48;
+            int usdToEur = 1;
+            int eurToRub = 58;
+            int eurToUsd = 1;
             string userInput;
-            bool endConvertMoney = true;
+            bool whenEndConvertMoney = true;
 
             Console.Write("Введите количество Рублей на вашем счету: ");
             rub =Convert.ToSingle(Console.ReadLine());
@@ -35,7 +38,7 @@ namespace bankKonverter
             Console.WriteLine("6-обменять Евро на Рубли");
             Console.WriteLine("7-завершить операцию");
 
-            while (endConvertMoney == true)
+            while (whenEndConvertMoney)
             {
                 Console.Write("Какую функцию желаете использовать: ");
                 userInput = Console.ReadLine();
@@ -128,9 +131,10 @@ namespace bankKonverter
                         break;
                     case "7":
                         Console.WriteLine("Досвидание!");
-                        endConvertMoney = false;
+                        whenEndConvertMoney = false;
                         break;
                 }
+
                 Console.WriteLine($"У вас на счету Рублей - {rub}, Долларов - {usd}, Евро - {eur}");
                 Console.ReadKey();
             }
